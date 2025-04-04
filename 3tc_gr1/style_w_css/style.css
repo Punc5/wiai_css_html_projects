@@ -1,0 +1,13 @@
+h2 {
+    font-size: 20px;
+}
+
+h4 {
+    color: green;
+    font-size: 20px;
+}
+
+p {
+    color: rgb(238, 0, 255);
+    text-transform: uppercase;
+}
