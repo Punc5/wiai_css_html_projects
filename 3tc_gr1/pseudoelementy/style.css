@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    background-color: #333;
+    font-size: 36px;
+}
+
+p {
+    margin: 100px;
+    text-align: center;
+}
+
+p::before {
+    content: 'Cześć ';
+    color: lime;
+}
+
+p::after {
+    content: '! 👋';
+}
+
+.square {
+    margin: 0 auto;
+    width: 300px;
+    height: 300px;
+    background-color: tomato;
+}
+
+.square::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: royalblue;
+}
