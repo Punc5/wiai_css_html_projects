@@ -1,0 +1,26 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    background-color: #333;
+    font-size: 30px;
+    margin: 30px;
+}
+
+span {
+    display: block;
+}
+
+h5 {
+    color: tomato;
+}
+
+h2:nth-last-of-type(1) {
+    color: lime;
+}
