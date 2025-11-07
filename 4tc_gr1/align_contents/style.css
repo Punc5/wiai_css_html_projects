@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #333;
+    font-family: sans-serif;
+    font-size: 50px;
+}
+
+section {
+    height: 400px;
+    background-color: #678;
+    display: flex;
+    flex-wrap: wrap;
+    /* align-content: stretch; */
+    /* align-content: flex-start; */
+    /* align-content: flex-end; */
+    /* align-content: center; */
+    /* align-content: space-between; */
+    /* align-content: space-around; */
+}
+
+.square {
+    width: 25%;
+    /* height: 100px; */
+    line-height: 100px;
+    text-align: center;
+}
+.one {
+    background-color: rebeccapurple;
+}
+.two {
+    background-color: goldenrod;
+}
+.three {
+    background-color: red;
+}
+.four {
+    background-color: teal;
+}
+.five {
+    background-color: blue;
+}
+.six {
+    background-color: chartreuse;
+}
+.seven {
+    background-color: darkolivegreen;
+}
+.eight {
+    background-color: darkslategray;
+}
