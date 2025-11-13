@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #333;
+    font-family: sans-serif;
+    font-size: 50px;
+}
+
+section {
+    display: flex;
+    align-items: flex-end;
+    height: 400px;
+    border: 5px solid black
+}
+
+.square {
+    width: 200px;
+    /* height: 200px; */
+    line-height: 200px;
+    text-align: center;
+}
+.one {
+    background-color: rebeccapurple;
+}
+.two {
+    background-color: goldenrod;
+    align-self: stretch;
+}
+.three {
+    background-color: red;
+}
+.four {
+    background-color: teal;
+    align-self: stretch;
+}
