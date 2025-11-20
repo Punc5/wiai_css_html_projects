@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #333;
+    font-family: sans-serif;
+}
+
+section {
+    display: flex;
+    margin: 50px auto;
+    height: 400px;
+    width: 800px;
+    border: 5px solid black;
+}
+
+.square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    font-size: 50px;
+    border: 3px solid black;
+    background: lime;
+}
+
+.f-one {
+    align-self: stretch;
+}
+
+.f-two {
+    align-self: flex-start;
+}
+
+.f-three {
+    align-self: flex-end;
+}
+
+/* .f-four {
+    align-self: stretch; - wartość domyślna dla klasy f-four
+} */
+
+.last-section {
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* .l-one {
+    align-self: flex-start; - wartość domyślna dla klasy l-one
+} */
+
+.l-two, .l-five {
+    align-self: center;
+}
+
+.l-three, .l-four {
+    align-self: flex-end;
+}
