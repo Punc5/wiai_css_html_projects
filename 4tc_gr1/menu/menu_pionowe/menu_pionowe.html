@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu pionowe na przyciskach</title>
+    <style>
+        .menu {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 200px;
+            border: 1px solid #9a9a9a;
+            border-bottom-width: 0;
+        }
+
+        .menu li a {
+            background: lightblue url("obraz1.gif") repeat-x bottom left;
+            font-weight: bold;
+            font-size: 16px;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: orange;
+            display: block;
+            height: 25px;
+            padding: 0 8px;
+            text-decoration: none;
+        }
+
+        .menu li a:visited {
+            color: white;
+        }
+
+        .menu li a:hover {
+            background-image: url(obraz2.gif);
+            color: red;
+        }
+
+        .menu li a:active {
+            color: yellow
+        }
+    </style>
+</head>
+<body>
+    <ul class="menu">
+        <li><a href="https://www.zstjaslo.pl">ZST Jasło</a></li>
+        <li><a href="http://www.helion.pl">Helion</a></li>
+        <li><a href="http://www.onet.pl">Onet</a></li>
+        <li><a href="https://www.pixabay.com">Pixabay</a></li>
+        <li><a href="https://www.zstjaslo.pl">ZST Jasło</a></li>
+    </ul>
+</body>
+</html>
