@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 100px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #333;
+    color: #fff;
+}
+
+div {
+    width: 600px;
+    height: 200px; /* width i height nie mogą być równe dla rounded-pill, ponieważ wyjdzie okrąg */
+}
